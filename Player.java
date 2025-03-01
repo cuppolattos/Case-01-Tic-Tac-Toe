@@ -1,15 +1,15 @@
 
 public class Player {
-    private String name;
+    private String playerName;
     private char symbol;
 
-    public Player(String name, char symbol) {
-        this.name = name;
+    public Player(String playerName, char symbol) {
+        this.playerName = playerName;
         this.symbol = symbol;
     }
 
     public String getName() {
-        return name;
+        return playerName;
     }
 
     public char getSymbol() {
